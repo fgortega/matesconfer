@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>programación lineal con dos incógnitas | Programación Lineal </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Víctor Monterreal Blázquez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="programacin_lineal_con_dos_incgnitas.html#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Programación Lineal</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">PROGRAMACIÓN LINEAL</a></li>
+   <li><a href="inecuaciones.html" class="daddy">Inecuaciones</a>
+   <ul class="other-section">
+      <li><a href="inecuaciones_lineales_con_dos_incgnitas.html" class="no-ch">inecuaciones lineales con dos incógnitas</a></li>
+   </ul>
+   </li>
+   <li><a href="sistemas_de_inecuaciones_lineales_con_dos_incgnitas.html" class="no-ch">Sistemas de inecuaciones lineales con dos incógnitas</a></li>
+   <li class="current-page-parent"><a href="programacin_lineal.html" class="current-page-parent daddy">Programación lineal</a>
+   <ul>
+      <li id="active"><a href="programacin_lineal_con_dos_incgnitas.html" class="active no-ch">programación lineal con dos incógnitas</a></li>
+   </ul>
+   </li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="examen.html" class="no-ch">Examen</a></li>
+   <li><a href="fin.html" class="no-ch">Fin</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="programacin_lineal.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resumen.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">programación lineal con dos incógnitas</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_1" class="block iDevice_content">
+<p>Hoy en día los programas de programación lineal son muy complejos y manejan muchas variables. Su resolución se hace mediante el “método del simplex” con ayuda de un ordenador.</p>
+<p>Nosotros vamos a resolver problemas con sólo dos variables, siguiendo estos pasos:</p>
+<p>–Hacer una tabla, determinar las variables, escribir las restricciones y encontrar la función objetivo.</p>
+<p>–Representar la región factible y encontrar sus vértices.</p>
+<p>–Calcular el valor de la función en cada vértice y determinar la solución óptima</p>
+<p>Ejemplos:</p>
+<p>1) Un pequeño negocio fabrica vestidos y pantalones. Para hacer un vestido necesitan ½ de corte y 20 minutos de costura. Hacer un par de pantalones requiere 15 minutos de corte y ½ hora de costura. El beneficio de un vestido es de 40 € y el de un par de pantalones es de 50 €. El negocio está funcionando un máximo de 8 horas al día. Determina cuántos vestidos y cuántos pares de pantalones se deben fabricar para que el beneficio sea máximo y cuál es ese beneficio.</p>
+<ul>
+<li>Sea <i>x</i> el número de vestidos e <i>y</i> el de pares de pantalones.</li>
+<li>La función objetivo (beneficio) es:</li>
+<li><i>P(</i><i>x,y</i><i>) = 40x + 50y </i></li>
+<li>Las restricciones son:</li>
+</ul>
+<div><img src="eXe_LaTeX_math_5.gif"  width="232" height="86" />
+<ul>
+<li>La región factible será:</li>
+</ul>
+<div><img src="program_lineal3.png" width="219" height="192" /></div>
+<div> </div>
+<div>
+<ul>
+<li>Resolviendo los sistemas de los pares de ecuaciones, obtenemos los vértices de la región factible: (0,0), (0,16), (16,0) and (12,8). Entonces:</li>
+<li>P(0,0) = 0</li>
+<li>P(0,16) = 800</li>
+<li>P(16,0) = 640</li>
+<li>P(12,8) = 880</li>
+<li>Se deben tejer 12 vestidos y 8 pares de pantalones para obtener un beneficio máximo de 880 €</li>
+</ul>
+<div> </div>
+<div>
+<div>2) Un agricultor tiene 80 hectáreas de su finca disponible para plantar maíz y coles. Debe cultivar al menos 10 hectáreas de maíz y 20 de coles para satisfacer las demandas. Prefiere plantar más maíz, pero sólo puede cultivar un máximo de tres veces más maíz que coles. Si la ganancia del maíz es de 800 €/ha y el de coles 500 €/ha, ¿cómo debe el agricultor plantar los dos cultivos para obtener una ganancia máxima y cuál es esta ganancia?</div>
+<div></div>
+<div>
+<ul>
+<li>Sea <i>x</i> el número de hectáreas de maíz e <i>y</i> el número de hectáreas de coles</li>
+<li>La función objetivo (beneficio) es</li>
+<li><i>P(</i><i>x,y</i><i>) = 800x + 500y </i></li>
+<li>Las restricciones son:</li>
+</ul>
+</div>
+<div><img src="eXe_LaTeX_math_6.gif"  width="136" height="61" /> </div>
+<div>
+<ul>
+<li>La región factible será:</li>
+</ul>
+</div>
+<div> <img src="program_lineal7.png" width="289" height="228" /></div>
+<div> </div>
+<div>
+<ul>
+<li>Los vértices de la región factible son: (20,60), (10,20), (10,30) and (60,20). Entonces:</li>
+<li>P(20,60) = 46000</li>
+<li>P(10,20) = 18000</li>
+<li>P(10,30) = 23000</li>
+<li>P(60,20) = 58000</li>
+<li>El granjero debe plantar 60 hectáreas de maíz y 20 hectáreas de coles para obtener un beneficio máximo de 58 000 €</li>
+</ul>
+3) Un instituto está preparando un viaje para 400 estudiantes. La compañía de transportes tiene 10 autobuses de 50 plazas y 8 autobuses de 40, pero sólo tiene 9 conductores disponibles. El coste del autobús grande es de 800 € y el del pequeño 600 €. Calcula cuántos autobuses de cada tipo deben usar para que el coste sea mínimo.
+<ul>
+<li>Sea <i>x</i> el número de autobuses pequeños e <i>y</i> el número de autobuses grandes</li>
+<li>La función objetivo (coste) es</li>
+<li><i>C(</i><i>x,y</i><i>) = </i><i>600x </i><i>+ </i><i>800y</i></li>
+<li>Las restricciones son:</li>
+</ul>
+<div><img src="eXe_LaTeX_math_7.gif"  width="152" height="61" /><br />
+<div>
+<ul>
+<li>La región factible será:</li>
+</ul>
+</div>
+<div><img src="program_lineal8.png" width="242" height="174" /></div>
+<ul>
+<li>P(0,8) = 6400</li>
+<li>P(0,9) = 7200</li>
+<li>P(5,4) = 6200</li>
+<li>Se deben usar 5 autobuses pequeños y 4 grandes para minimizar el coste (6 200 €)</li>
+</ul>
+</div>
+<div></div>
+<div>También se puede usar el método gráfico. Ejemplos:</div>
+<div>
+<div></div>
+<div></div>
+<div></div>
+<div>Es muy útil en regiones no acotadas:</div>
+<div>
+<div> </div>
+<div><img src="noacotadas.png" alt="" width="233" height="210" /></div>
+<div></div>
+<div>Y también puedes encontrar estas situaciones:</div>
+<div>
+<div> </div>
+<div><img src="program_lineal9.png" width="779" height="133" /></div>
+<div> </div>
+<div><strong>Ejercicios</strong></div>
+<div> </div>
+<div>1) Una compañía de transporte tiene dos tipos de camiones, A y B. El tipo A tiene una cámara frigorífica de 20 m<sup>3</sup> y una zona sin refrigerar de 40 m<sup>3</sup> , mientras que el tipo B tiene 30 m<sup>3</sup> en cada sección. Un tendero necesita contratar camiones para el transporte de 3 000 m<sup>3</sup> de stock refrigerado y 4 000 m<sup>3</sup> de no refrigerado. El coste por kilómetro es de 30 € el tipo A y 40 € el B. ¿Cuántos camiones de cada tipo debe contratar para que el coste sea mínimo?</div>
+<div></div>
+<div>2) Una tienda quiere liquidar 200 de sus camisas y 100 de sus pares de pantalones de la temporada pasada. Han decidido hacer dos ofertas, A y B. La oferta A es un paquete de una camisa y un par de pantalones que se venderán por 30 €. La oferta B es un paquete de tres camisas y un par de pantalones que se venderán por 50 €. La tienda no quiere vender menos de 20 paquetes de la oferta A ni menos de 10 de la B. ¿Cuántos paquetes de cada uno tiene que vender para maximizar el dinero obtenido por la promoción?</div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div>Soluciones: 1) <span class="sol">50 </span><span class="sol">del tipo A y </span><span class="sol">67 del tipo B.  2) 50 paquetes de cada oferta</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 3.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="programacin_lineal.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resumen.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_slate_js.js"></script></body></html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>operaciones con funciones | Límites y continuidad </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Víctor Monterreal Blázquez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="operaciones_con_funciones.html#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Límites y continuidad</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">LÍMITES Y CONTINUIDAD</a></li>
+   <li class="current-page-parent"><a href="funciones.html" class="current-page-parent daddy">Funciones</a>
+   <ul>
+      <li id="active"><a href="operaciones_con_funciones.html" class="active no-ch">operaciones con funciones</a></li>
+   </ul>
+   </li>
+   <li><a href="lmite_de_una_funcin.html" class="no-ch">Límite de una función</a></li>
+   <li><a href="clculo_de_lmites.html" class="no-ch">Cálculo de límites</a></li>
+   <li><a href="continuidad.html" class="daddy">Continuidad</a>
+   <ul class="other-section">
+      <li><a href="discontinuidades.html" class="no-ch">discontinuidades</a></li>
+   </ul>
+   </li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="examen.html" class="no-ch">Examen</a></li>
+   <li><a href="fin.html" class="no-ch">Fin</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="funciones.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lmite_de_una_funcin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">operaciones con funciones</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_1" class="block iDevice_content">
+<p>Se define la <b>suma, resta, multiplicación y división de funciones </b>como:</p>
+<ul>
+<li>(f ± g)(x) = f(x) ± g(x)</li>
+<li>(f · g)(x) = f(x) · g(x)</li>
+<li>(f/g) (x) = f(x)/g(x) (si g(x)≠0)</li>
+</ul>
+<p></p>
+<p>Ejemplo: si f(x) = x<sup>2</sup> -2, g(x) = 3x + 2, entonces:</p>
+<ul>
+<li>(f + g)(x) = f(x) + g(x) = x<sup>2</sup> + 3x</li>
+<li>(f - g)(x) = f(x) - g(x) = x<sup>2</sup> – 3x - 4</li>
+<li>(f · g)(x) = f(x) · g(x) = 3x<sup>3</sup> + 2x<sup>2</sup> – 6x - 4</li>
+<li>(f/g) (x) = f(x)/g(x) = (x<sup>2</sup> -2)/(3x + 2), si x ≠ -2/3</li>
+</ul>
+<p><strong></strong>La <b>función</b> <b>composición</b> es la aplicación de una función al resultado de otra. Se representa <i>g</i><sub>°</sub><i>f</i>, y se lee <i>“f </i><i>compuesto</i><i> con g”.</i></p>
+<p><i> </i>  g<sub>°</sub>f(x) = g(f(x))   (si f(x)Є Dom g)</p>
+<p></p>
+<p><img src="composicion.png" width="334" height="167" /></p>
+<p> Ejemplo. Si f(x) = x + 1; g(x) = x<sup>2</sup>, entonces:</p>
+<p>   <i>g</i><sub>°</sub><i>f</i><i>(x) = g(f(x)) = g(x + 1) = (x + 1)</i><sup><i>2</i></sup><i> = x</i><sup><i>2</i></sup><i> + 2x +1</i></p>
+<p><i>  </i><i>f</i><sub>°</sub><i>g</i><i>(x) = f(g(x)) = f(x</i><sup><i>2</i></sup><i>) = x</i><sup><i>2</i></sup><i> + 1</i></p>
+<p><b>NOTA. </b>Como has visto, la composición no cumple la propiedad conmutativa:</p>
+<p><i>  </i><i>g</i><sub>°</sub><i>f</i><i> ≠ </i><i>f</i><i><sub>°</sub>g</i></p>
+<p></p>
+<p>La <b>función</b> <b>inversa</b> de <i>f</i> es la función que deshace a la función <i>f</i>, es decir, es la función <i>f</i><sup><i>-1</i></sup> que cumple <i>f</i><sub><sup>˚</sup></sub><i> f</i><sup><i>-1</i></sup><i>(x)</i> <i>= f</i><sup><i>-1</i></sup> <sub>˚</sub><i>f (x) = i(x) = x</i></p>
+<p>Ejemplo 1: si <i>f</i>(x) = x<sup>2</sup>, entonces <i>f</i><sup><i>-1</i></sup><i>(x) = √x, </i>porque</p>
+<p><i>  f</i><sub>°</sub><i> f</i><sup><i>-1</i></sup><i>(x) = f(√x) = (√x)</i><sup><i>2</i></sup><i>= x</i></p>
+<p><i>  f</i><sup><i>-1</i></sup><sub>°</sub><i>f (x) = f</i><sup><i>-1</i></sup><i>(x</i><i>2</i><i>) = √x</i><sup><i>2</i></sup><i> = x</i></p>
+<p>Ejemplo 2<i>: </i>si <i>f</i>(x) = 1/x, entonces <i>f</i><sup><i>-1</i></sup><i>(x) = 1/x, </i>porque</p>
+<p><i>  f</i>˚<i><sub>°</sub>f</i><sup><i>-1</i></sup><i>(x) = f(1/x) = 1/(1/x)= x</i></p>
+<p><i>  f</i><sup><i>-1</i></sup><sub>°</sub><i>f (x) = f</i><sup><i>-1</i></sup><i>(1/x) = 1/(1/x)= x  </i></p>
+<div>Ejemplo 3: encuentra la inversa de la función <i>f</i>(x) = √(2x)</div>
+<p>x = √(2y) → x<sup>2</sup> = 2y → y = f<sup>-1</sup>(x) = x<sup>2</sup>/2</p>
+<p>NOTA. Las funciones inversas son simétricas y su eje de simetría es la recta y = x</p>
+<p><strong>Ejercicio</strong></p>
+<div class="exe-math show-image position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_1.2.gif" width="336" height="132" /></p>
+<p class="exe-math-code">\[\begin{align} &amp; \text{Si }f(x)=\sqrt{x+3};g(x)={{x}^{2}}-1,\text{ calcula:} \\ &amp; a)\text{ 3}f+2g \\ &amp; b)g\cdot f \\ &amp; c)g\circ f \\ &amp; d){{f}^{-1}}\circ g \\ &amp; e){{g}^{-1}} \\ \end{align}\]</p>
+</div>
+<p><br /><br /></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Soluciones:</p>
+<p><img src="eXe_LaTeX_math_2.2.gif"  width="192" height="111" /></p>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 3.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="funciones.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lmite_de_una_funcin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_slate_js.js"></script></body></html>

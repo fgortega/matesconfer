@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Teorema de Bayes | PROBABILIDAD </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Víctor Monterreal Blázquez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+<meta name="generator" content="eXeLearning 2.3 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-12"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="teorema_de_bayes.html#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">PROBABILIDAD</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">PROBABILIDAD</a></li>
+   <li><a href="sucesos_aleatorios.html" class="daddy">Sucesos aleatorios</a>
+   <ul class="other-section">
+      <li><a href="operaciones_con_sucesos.html" class="no-ch">operaciones con sucesos</a></li>
+   </ul>
+   </li>
+   <li><a href="probabilidad.html" class="no-ch">Probabilidad</a></li>
+   <li><a href="regla_de_laplace.html" class="no-ch">Regla de Laplace</a></li>
+   <li><a href="experimentos_compuestos.html" class="no-ch">Experimentos compuestos</a></li>
+   <li><a href="probabilidad_condicionada.html" class="no-ch">Probabilidad condicionada</a></li>
+   <li><a href="teorema_de_la_probabilidad_total.html" class="no-ch">Teorema de la probabilidad total</a></li>
+   <li id="active"><a href="teorema_de_bayes.html" class="active no-ch">Teorema de Bayes</a></li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="examen.html" class="no-ch">Examen</a></li>
+   <li><a href="fin.html" class="no-ch">Fin</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="teorema_de_la_probabilidad_total.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resumen.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Teorema de Bayes</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id14">
+<div class="iDevice emphasis0">
+<div id="ta14_1" class="block iDevice_content">
+<p>Sea A<sub>1</sub>, A<sub>2</sub>,…,A<sub>n</sub> un sistema completo de sucesos con P(A<sub>i</sub>) ≠ 0, i = 1, 2,…,n.</p>
+<p>Sea B Sea B otro suceso del que sabemos P(B/A<sub>i</sub>), i = 1, 2,…,n.</p>
+<p>Entonces:</p>
+<p><img src="eXe_LaTeX_math_4.2.gif"  width="520" height="44" /></p>
+<p> Ejemplo 1: 3 máquinas, <i>M</i>1, <i>M</i>2 y <i>M</i>3, producen 45%, 30% y 25%, respectivamente, del total de piezas producida en una fábrica. Los porcentajes de piezas defectuosas de estas fábricas son 3%, 4% y 5%, respectivamente.</p>
+<ul>
+<li>a) Si elegimos una pieza al azar, calcula la probabilidad de que sea defectuosa.</li>
+<li>b) Supongamos que elegimos una pieza al azar y es defectuosa. Calcula la probabilidad de que provenga de M2.<img alt="" src="eXe_LaTeX_math_0.2.gif" width="848" height="26" /></li>
+</ul>
+<div><img alt="" src="eXe_LaTeX_math_1.6.gif" width="656" height="44" /></div>
+<div>
+<div class="exe-math show-image position-center"><br />
+<p style="text-align: left;"></p>
+<p style="text-align: left;">Ejemplo 2. En una factoría, hay tres robots A, B y C que sueldan piezas. El 15% de las piezas son soldadas por el robot A, el 20% por el robot B y el 65% por el C. Se sabe que la probabilidad de encontrar una pieza defectuosa soldada por el robot A es 0,02, 0,03 si la ha soldado el B y 0,01 si la ha soldado el C.</p>
+</div>
+</div>
+<div>
+<ul>
+<li>a) Si elegimos una pieza aleatoriamente, averigua la probabilidad de que sea defectuosa.</li>
+<li>b) Si elegimos una pieza al azar, averigua la probabilidad de que, sabiendo que es defectuosa, haya sido soldada por el robot A.</li>
+</ul>
+<img alt="" src="eXe_LaTeX_math_2.2.gif" width="752" height="26" />
+<div>
+<div class="exe-math show-image position-center">
+<p class="exe-math-code">\[a)P(D)=P(A)\cdot P\left( D/A \right)+P(B)\cdot P\left( D/B \right)+P(C)\cdot P\left( D/C \right)=0,15\cdot 0,02+0,2\cdot 0,03+0,65\cdot 0,01=0,0155\]</p>
+</div>
+</div>
+<div> <img alt="" src="eXe_LaTeX_math_3.2.gif" width="576" height="44" /></div>
+<div>
+<div class="exe-math show-image position-center">
+<p class="exe-math-code">\[b)P(A/D)=\frac{P(A)\cdot P\left( D/A \right)}{P(A)\cdot P\left( D/A \right)+P(B)\cdot P\left( D/B \right)+P(C)\cdot P\left( D/C \right)}=\frac{0,15\cdot 0,02}{0,0155}=0,1935\]</p>
+</div>
+</div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div><strong>Ejercicio.</strong> Una empresa fabrica dos tipos de cajas: grandes y pequeñas. El 20% de las cajas son grandes y el  80% pequeñas. La probabilidad de que una caja grande salga defectuosa es de 0,02 y de 0.1 si es pequeña. Si elegimos una caja al azar y está defectuosa, ¿cuál es la probabilidad de que sea grande?</div>
+<div> </div>
+<div></div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div>Solución: 0,214</div>
+</div>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 3.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="teorema_de_la_probabilidad_total.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="resumen.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_slate_js.js"></script></body></html>

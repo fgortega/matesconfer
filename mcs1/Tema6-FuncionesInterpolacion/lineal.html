@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>lineal | Funciones.Interpolación </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Víctor Monterreal Blázquez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+<meta name="generator" content="eXeLearning 2.1 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="lineal.html#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Funciones.Interpolación</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">FUNCIONES. INTERPOLACIÓN</a></li>
+   <li><a href="funciones.html" class="no-ch">Funciones</a></li>
+   <li><a href="caractersticas_de_una_funcin.html" class="daddy">Características de una función</a>
+   <ul class="other-section">
+      <li><a href="1_tipo_de_funciones.html" class="no-ch">1. tipo de funciones</a></li>
+      <li><a href="2_dominio.html" class="no-ch">2. dominio</a></li>
+      <li><a href="3_continuidad.html" class="no-ch">3. continuidad</a></li>
+      <li><a href="4_simetra.html" class="no-ch">4. simetría</a></li>
+      <li><a href="5_periodicidad.html" class="no-ch">5. periodicidad</a></li>
+      <li><a href="6_puntos_de_corte_con_los_ejes.html" class="no-ch">6. puntos de corte con los ejes</a></li>
+      <li><a href="7_asntotas.html" class="no-ch">7. asíntotas</a></li>
+      <li><a href="8_extremos_crecimiento_y_decrecimiento.html" class="no-ch">8. extremos, crecimiento y decrecimiento</a></li>
+      <li><a href="9_puntos_de_inflexin_y_curvatura.html" class="no-ch">9. puntos de inflexión y curvatura</a></li>
+   </ul>
+   </li>
+   <li><a href="operaciones_con_funciones.html" class="no-ch">Operaciones con funciones</a></li>
+   <li><a href="funciones_afines.html" class="no-ch">Funciones afines</a></li>
+   <li><a href="funciones_cuadrticas.html" class="no-ch">Funciones cuadráticas</a></li>
+   <li class="current-page-parent"><a href="interpolacin_y_extrapolacin.html" class="current-page-parent daddy">Interpolación y extrapolación</a>
+   <ul>
+      <li id="active"><a href="lineal.html" class="active no-ch">lineal</a></li>
+      <li><a href="cuadrtica.html" class="no-ch">cuadrática</a></li>
+   </ul>
+   </li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="examen.html" class="no-ch">Examen</a></li>
+   <li><a href="fin.html" class="no-ch">Fin</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="interpolacin_y_extrapolacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cuadrtica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">lineal</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id32">
+<div class="iDevice emphasis0">
+<div id="ta32_1" class="block iDevice_content">
+<div>Para hacer <strong>interpolación lineal</strong>, buscamos dos puntos que tengan en medio el valor de la imagen que necesitamos y hallamos la fórmula de la recta que pasa por ellos para utilizarla para estimar la imagen a interpolar. Si quisiéramos extrapolar cogeríamos los dos valores mayores o menores para hallar la recta.</div>
+<div></div>
+<div>Si (x<sub>0</sub>,y<sub>0</sub>),(x<sub>1</sub>,y<sub>1</sub>) son las coordenadas de los puntos “cercanos”, la recta tendrá la fórmula:</div>
+<div><img src="eXe_LaTeX_math_4.gif"  width="168" height="31" /></div>
+<div></div>
+<div>
+<div>Bastaría sustituir la x y el valor de y nos daría la estimación.</div>
+<div></div>
+<div>
+<div>Ejemplo. El número de trasplantes de riñón efectuado en España en el año 1984 fue de 836, y en el año 1986 fue de 1182. Usando la interpolación lineal, determina el número de trasplantes que se efectuaron en el año 1985 y en el año 1983.</div>
+<div></div>
+<div>La expresión de la función de interpolación lineal que pasa por los puntos (x<sub>0</sub>, y<sub>0</sub>) = (1984, 836); (x<sub>1</sub>, y<sub>1</sub>) = (1986, 1 182) es: y = 173x – 342 396</div>
+<div>El número de trasplantes efectuados en el año 1985 se obtiene por interpolación:</div>
+<div>y (1985) = 173 · 1985 – 342 396 = 1 009</div>
+<div>valor que se ajusta bien al número real de trasplantes que se efectuaron en 1985 y que fueron 968.</div>
+<div>
+<div>El número de trasplantes que se efectuaron en el año 1983 se obtiene por extrapolación:</div>
+<div>y (1983) = 173 · 1983 – 342 396 = 663</div>
+<div>valor que se aproxima mucho al real, ya que en 1983 se hicieron en España 688 trasplantes.</div>
+<div><img src="interplin.png" width="439" height="229" /></div>
+<div></div>
+<div></div>
+<div></div>
+<div><strong>Ejercicio</strong>. En un negocio recién abierto, la primera semana hubo 150 clientes que supusieron unos ingresos de 3600 €, en la 2ª semana 200 clientes que supusieron ingresos de 5600 euros.</div>
+<div>a) Halla la función de interpolación lineal que relaciona los ingresos con el número de clientes.</div>
+<div>b) ¿Cuántos ingresos generarían 190 clientes?</div>
+<div>c) ¿Cuántos clientes se necesitarían para generar 7000 euros de ingresos?</div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div>Soluciones: a) f(x) = 40x - 2400; b) 5200 €; c) 235 clientes</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 3.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="interpolacin_y_extrapolacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cuadrtica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

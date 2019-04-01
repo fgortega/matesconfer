@@ -7,7 +7,7 @@ Modified by Ignacio Gros for eXeLearning.net
 See Help - eXe Tutorial for more info on how to modify this style for your needs.
 */
 body{padding:15px 20px 20px 20px}
-#content{width:100%;position:relative;padding-bottom:10px;min-width:380px;background:#EDEFF0 url(../../../external.html?link=https://www.victormat.es/2ESO/Tema2-FraccionesYDecimales/_seamist_side_bg.gif) repeat-y 0 0}
+#content{width:100%;position:relative;padding-bottom:10px;min-width:380px;background:#EDEFF0 url("_seamist_side_bg.gif") repeat-y 0 0}
 #main-wrapper{padding:20px 20px 0 260px;background:none}
 #main{width:100%;padding:0}
 #content{padding-bottom:21px}

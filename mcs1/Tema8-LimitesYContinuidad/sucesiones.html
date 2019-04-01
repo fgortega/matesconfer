@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Sucesiones | Límites y continuidad </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Víctor Monterreal Blázquez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="sucesiones.html#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Límites y continuidad</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">LÍMITES Y CONTINUIDAD</a></li>
+   <li id="active"><a href="sucesiones.html" class="active daddy">Sucesiones</a>
+   <ul>
+      <li><a href="lmite_de_una_sucesin.html" class="no-ch">límite de una sucesión</a></li>
+      <li><a href="clculo_de_lmites.html" class="no-ch">cálculo de límites</a></li>
+      <li><a href="e.html" class="no-ch">e</a></li>
+   </ul>
+   </li>
+   <li><a href="lmites_de_funciones.html" class="daddy">Límites de funciones</a>
+   <ul class="other-section">
+      <li><a href="clculo_de_lmites_2.html" class="no-ch">cálculo de límites (2)</a></li>
+   </ul>
+   </li>
+   <li><a href="asntotas.html" class="no-ch">Asíntotas</a></li>
+   <li><a href="continuidad.html" class="daddy">Continuidad</a>
+   <ul class="other-section">
+      <li><a href="discontinuidades.html" class="no-ch">discontinuidades</a></li>
+   </ul>
+   </li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="examen.html" class="no-ch">Examen</a></li>
+   <li><a href="fin.html" class="no-ch">Fin</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lmite_de_una_sucesin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Sucesiones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_1" class="block iDevice_content">
+<div>Una <strong>sucesión</strong> es un conjunto ordenado de números generados de acuerdo a una regla. Es una función  s: <strong>N</strong> → <strong>R</strong></div>
+<div></div>
+<div>Cada número de la sucesión se llama <strong>término</strong>, y los representamos como a<sub>i</sub>. Llamamos <strong>término general</strong> de la sucesión, a<sub>n</sub>, a la expresión que representa a cada término de la sucesión.</div>
+<div></div>
+<div>Por ejemplo:</div>
+<p>· 1, 2, 3, 4, 5, … a<sub>n</sub> = n, entonces a<sub>100</sub> = 100</p>
+<p><br />· 2, 4, 6, 8, 10, … a<sub>n</sub> = 2n, entonces a<sub>25</sub> = 50</p>
+<p><br />· 1, 4, 9, 16, 25, … a<sub>n</sub> = n<sup>2</sup>, entonces a<sub>12</sub> = 144</p>
+<p><br />· 32, 16, 8, 4, 2, … a<sub>n</sub> = 2<sup>6-n</sup>, entonces a<sub>10</sub> = 2<sup>-4</sup> = 1/16</p>
+<p></p>
+<div>Algunas sucesiones son recurrentes, porque cada término se obtiene de los anteriores. Por ejemplo:</div>
+<p>· 1, 1, 2, 3, 5, 8, 13, … a<sub>n</sub> = a<sub>n-1</sub> + a<sub>n-2</sub>     a<sub>1</sub> = a<sub>2</sub> = 1</p>
+<p>Esta es la sucesión de Fibonacci.</p>
+<div>Una <strong>progresión aritmética</strong> es una sucesión en la cual la diferencia entre dos términos consecutivos se mantiene constante. Esa constante se llama <strong>diferencia</strong> de la progresión.</div>
+<div>Ejemplo: 3, 5, 7, 9, ….      d = 2</div>
+<p>Término general a<sub>n</sub> = a<sub>1</sub> + (n-1)· d<br />En el ejemplo: a<sub>n</sub> = 3 + (n-1)· 2 = 2n + 1</p>
+<div class="O0">Una <strong>progresión geométrica</strong> es una sucesión que cumple que el cociente entre dos términos consecutivos se mantiene constante. A esa constante se le llama <strong>razón</strong> de la progresión.</div>
+<div class="O0">Ejemplo: 3, 6, 12, 24 ….      r = 2</div>
+<p>Término general: a<sub>n</sub> = a<sub>1</sub>· r<sup>n-1</sup><br />En el ejemplo: a<sub>n</sub> = 3 · 2<sup>n-1</sup></p>
+<p> </p>
+<p><strong>Ejercicio.</strong> Encuentra el término general y a<sub>10</sub> de las siguientes sucesiones:</p>
+<p>a) 1, 3, 9, 27, 81, ...</p>
+<p>b) 15, 12, 9, 6, 3, 0, ...</p>
+<p>c) 1, -2, 3, -4, 5, ...</p>
+<p><img src="eXe_LaTeX_math_7.1.gif"  width="80" height="27" /></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Soluciones: a) a<sub>n</sub>=3<sup>n-1</sup>, a<sub>10</sub>= 3<sup>9</sup>= 19683; b) a<sub>n</sub>= 18- 3n, a<sub>10</sub>=-12; c) (-1)<sup>n</sup>·n; a<sub>10</sub>= 10;</p>
+<p><img src="eXe_LaTeX_math_8.1.gif"  width="168" height="29" /></p>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lmite_de_una_sucesin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

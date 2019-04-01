@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Aproximaciones y errores | Números reales </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Víctor Monterreal Blázquez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="aproximaciones_y_errores.html#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Números reales</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">NÚMEROS REALES</a></li>
+   <li><a href="nmeros_enteros.html" class="no-ch">Números enteros</a></li>
+   <li><a href="nmeros_racionales.html" class="no-ch">Números racionales</a></li>
+   <li><a href="nmeros_reales.html" class="daddy">Números reales</a>
+   <ul class="other-section">
+      <li><a href="valor_absoluto.html" class="no-ch">valor absoluto</a></li>
+      <li><a href="intervalos.html" class="no-ch">intervalos</a></li>
+   </ul>
+   </li>
+   <li><a href="potencias_y_fracciones.html" class="no-ch">Potencias y fracciones</a></li>
+   <li id="active"><a href="aproximaciones_y_errores.html" class="active no-ch">Aproximaciones y errores</a></li>
+   <li><a href="notacin_cientfica.html" class="no-ch">Notación científica</a></li>
+   <li><a href="races.html" class="daddy">Raíces</a>
+   <ul class="other-section">
+      <li><a href="radicales.html" class="daddy">radicales</a>
+      <ul class="other-section">
+         <li><a href="operaciones_con_radicales.html" class="no-ch">operaciones con radicales</a></li>
+      </ul>
+      </li>
+      <li><a href="racionalizacin.html" class="no-ch">racionalización</a></li>
+   </ul>
+   </li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="examen.html" class="no-ch">Examen</a></li>
+   <li><a href="fin.html" class="no-ch">Fin</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="potencias_y_fracciones.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="notacin_cientfica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Aproximaciones y errores</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id24">
+<div class="iDevice emphasis0">
+<div id="ta24_1" class="block iDevice_content">
+<div>Usamos habitualmente números aproximados porque no es necesario o conveniente dar la cantidad exacta o no la podemos calcular con precisión.</div>
+<div></div>
+<div>Por ejemplo, si sabemos que alguien ha ganado 303.215 € en la lotería, decimos que ha ganado unos 300.000 €; cuando medimos una mesa con un metro, podemos decir la medida en centímetros o milímetros, pero no la podemos decir con más precisión.</div>
+<div></div>
+<div>
+<div>Una <strong>estimación</strong> de un número real es otro número real próximo al dado. Una <strong>aproximación de orden n</strong> de un número es una estimación de dicho número en la que se prescinde de las cifras de órdenes de unidad inferiores a n. Puede ser:</div>
+<div class="O1">– <strong>Por defecto</strong>, si todas las cifras de la estimación son exactas (es menor que el número)</div>
+<div class="O1">– <strong>Por exceso</strong>, si son exactas todas las cifras excepto la que indica el orden, que es una unidad mayor (es mayor que el número)</div>
+<div></div>
+<div>Ejemplo: 3,14 es la aproximación por defecto de π a las centésimas y 3,15 lo es por exceso.</div>
+<div></div>
+<div>
+<div>El <strong>redondeo de orden n</strong> de un número es la aproximación de orden n más próxima al número. Para ello se observa la primera cifra que se quita en la aproximación y:</div>
+<div class="O1">– si es menor que cinco, se deja como está</div>
+<div class="O1">– si es mayor o igual que cinco, se aumenta una unidad la cifra de orden n.</div>
+<div></div>
+<div>Ejemplo: 3,14 es el redondeo de π a las centésimas.</div>
+<div></div>
+<div>
+<div>Cuando hablamos de números aproximados estamos cometiendo un error, la resta entre el número exacto y el aproximado. Esta diferencia se llama <strong>error absoluto</strong>.</div>
+<div></div>
+<div>Por ejemplo, si usamos 3,14 para aproximar π, entonces:       EA = |π – 3,14| = 0,001592…&lt;0,01</div>
+<div></div>
+<div>En este ejemplo, no sabemos el error exacto pero podemos controlarlo o acotarlo, decimos que es menor que una centésima.</div>
+<div></div>
+<div>Para comparar errores, usamos el  <strong>error relativo</strong>:</div>
+<div><img src="eXe_LaTeX_math_0.gif"  width="392" height="66" /></div>
+<div></div>
+<div></div>
+</div>
+<div><strong>Ejercicios</strong>:</div>
+<div></div>
+<div>1.- Aproxima por defecto y exceso y redondea a las centésimas:</div>
+<div>a) 1/3</div>
+<div>b) √2</div>
+<div>c) e</div>
+<div></div>
+<div>2.- Calcula los errores cometidos cuando aproximamos</div>
+<div>a) 1/3 por 0,3</div>
+<div>b) e por 2,7</div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div>Soluciones:</div>
+<div>1.-
+<table border="1">
+<tbody>
+<tr>
+<td>número</td>
+<td>defecto</td>
+<td>exceso</td>
+<td>redondeo</td>
+</tr>
+<tr>
+<td>1/3</td>
+<td>0,33</td>
+<td>0,34</td>
+<td>0,33</td>
+</tr>
+<tr>
+<td>√2</td>
+<td>1,41</td>
+<td>1,42</td>
+<td>1,41</td>
+</tr>
+<tr>
+<td>e</td>
+<td>2,71</td>
+<td>2,72</td>
+<td>2,72</td>
+</tr>
+</tbody>
+</table>
+2.-</div>
+<div>a) EA= 1/30        ER= 1/10=10%</div>
+<div>b) EA= 0,01828...&lt;0,1       ER=0,006725...&lt;0,01=1%</div>
+<div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="potencias_y_fracciones.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="notacin_cientfica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

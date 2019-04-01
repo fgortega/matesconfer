@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Regla de Laplace | PROBABILIDAD </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Víctor Monterreal Blázquez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+<meta name="generator" content="eXeLearning 2.3 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-3"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="regla_de_laplace.html#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">PROBABILIDAD</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">PROBABILIDAD</a></li>
+   <li><a href="sucesos_aleatorios.html" class="daddy">Sucesos aleatorios</a>
+   <ul class="other-section">
+      <li><a href="operaciones_con_sucesos.html" class="no-ch">operaciones con sucesos</a></li>
+   </ul>
+   </li>
+   <li><a href="probabilidad.html" class="no-ch">Probabilidad</a></li>
+   <li id="active"><a href="regla_de_laplace.html" class="active no-ch">Regla de Laplace</a></li>
+   <li><a href="experimentos_compuestos.html" class="no-ch">Experimentos compuestos</a></li>
+   <li><a href="probabilidad_condicionada.html" class="no-ch">Probabilidad condicionada</a></li>
+   <li><a href="teorema_de_la_probabilidad_total.html" class="no-ch">Teorema de la probabilidad total</a></li>
+   <li><a href="teorema_de_bayes.html" class="no-ch">Teorema de Bayes</a></li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="examen.html" class="no-ch">Examen</a></li>
+   <li><a href="fin.html" class="no-ch">Fin</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="probabilidad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="experimentos_compuestos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Regla de Laplace</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id8">
+<div class="iDevice emphasis0">
+<div id="ta8_1" class="block iDevice_content">
+<p>En un experimento regular, con sucesos equiprobables, la probabilidad de un suceso A es el número de sucesos favorables a A dividido por el número de sucesos del espacio muestral.</p>
+<p>Ejemplo 1. En una bolsa tenemos 40 bolas rojas, 25 verdes y 15 azules, todas del mismo tamaño. Si extraemos una, ¿cuál es la probabilidad de que sea azul?</p>
+<div class="exe-math show-image position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_0.gif" width="360" height="34" /></p>
+<p class="exe-math-code">\[P(Azul)=\frac{\#\text{ bolas azules}}{\#\text{ total de bolas}}=\frac{15}{80}=\frac{3}{16}=0,1875\]</p>
+</div>
+<p>Ejemplo 2. Si sacamos una carta de una baraja de 40, ¿cuál es la probabilidad de sacar un rey?</p>
+<div class="exe-math show-image position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_1.4.gif" width="328" height="34" /></p>
+<p class="exe-math-code">\[P(rey)=\frac{\#\text{ reyes}}{\#\text{ total de cartas}}=\frac{4}{40}=\frac{1}{10}=0,1\]</p>
+</div>
+<p>Ejemplo 3. Si tiramos dos dados, ¿cuál es la probabilidad de que sumen 7?</p>
+<p>E = {(1,1), (1,2), (1,3), ….(1,6), (2,1),…(2,6), (3,1),     ….(6,6)}</p>
+<div class="exe-math show-image position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_3.1.gif" width="488" height="39" /></p>
+<p class="exe-math-code">\[P(suma=7)=\frac{\#\text{ }\left\{ \text{(1}\text{,6)(6}\text{,1)(2}\text{,5)(5}\text{,2)(3}\text{,4)(4}\text{,3)} \right\}}{\#\text{ total }}=\frac{6}{36}=\frac{1}{6}=0,166...\]</p>
+</div>
+<p><br /><br /></p>
+<p><br /><br /><strong>Ejercicios</strong></p>
+<p>1.-  Si tiramos dos dados, calcula la probabilidad de los sucesos:</p>
+<p>          A= {sacar al menos un 1}, B={dos 6}; C={la suma es 6}</p>
+<p> </p>
+<p>2.- Sacamos una carta de una baraja española de 40 cartas. Calcula la probabilidad de los sucesos:</p>
+<p>          A= {es un caballo}; B={no es de oros}; C={es de espadas o un rey}</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> Soluciones: 1.- P(A)= 11/36; P(B)=1/36; P(C)=5/36; 2.- P(A)=4/40=1/10; P(B)=30/40=3/4; P(C)=13/40</p>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 3.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="probabilidad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="experimentos_compuestos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_slate_js.js"></script></body></html>

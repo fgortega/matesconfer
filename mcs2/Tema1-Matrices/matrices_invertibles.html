@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Matrices invertibles | Matrices </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Víctor Monterreal Blázquez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="matrices_invertibles.html#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Matrices</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">MATRICES</a></li>
+   <li><a href="matrices.html" class="no-ch">Matrices</a></li>
+   <li><a href="operaciones_con_matrices.html" class="no-ch">Operaciones con matrices</a></li>
+   <li><a href="matrices_cuadradas.html" class="no-ch">Matrices cuadradas</a></li>
+   <li id="active"><a href="matrices_invertibles.html" class="active no-ch">Matrices invertibles</a></li>
+   <li><a href="rango_de_una_matriz.html" class="no-ch">Rango de una matriz</a></li>
+   <li><a href="aplicaciones_de_las_matrices.html" class="no-ch">Aplicaciones de las matrices</a></li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="examen.html" class="no-ch">Examen</a></li>
+   <li><a href="fin.html" class="no-ch">Fin</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="matrices_cuadradas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="rango_de_una_matriz.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Matrices invertibles</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_1" class="block iDevice_content">
+<p>Una matriz</p>
+<p><img src="eXe_LaTeX_math_10.gif"  width="96" height="19" /></p>
+<p>es <strong>invertible</strong> si</p>
+<p><img src="eXe_LaTeX_math_11.gif"  width="112" height="19" /></p>
+<p>tal que <i>A·B = B·A = I</i><sub><i>n</i></sub><i> . </i>Si no lo es se llama <b>matriz singular</b>.</p>
+<p><i>B=A</i><sup><i>-1</i></sup> se denomina <b>inversa</b> de <i>A</i></p>
+<p></p>
+<p>NOTAS:</p>
+<div class="exe-math show-image position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_2.1.gif" style="float: left;" width="104" height="24" /></p>
+<p class="exe-math-code">\[1)\ Si\ \exists {{A}^{-1}}]</p>
+</div>
+<p><br /><br /></p>
+<p>es única</p>
+<p><img src="eXe_LaTeX_math_3.2.gif"  width="344" height="21" /></p>
+<p>Propiedades:</p>
+<p>Sean</p>
+<p><img src="eXe_LaTeX_math_4.2.gif"  width="120" height="19" /></p>
+<p>invertibles,entonces:</p>
+<div class="exe-math show-image position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_6.2.gif" style="float: left;" width="288" height="29" /></p>
+<p class="exe-math-code">\[(i)\ {{A}^{-1}}\text{es invertible y}{{\left( {{A}^{-1}} \right)}^{-1}}=A\]</p>
+</div>
+<p><br /><br /></p>
+<p></p>
+<p></p>
+<div class="exe-math show-image position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_7.2.gif" style="float: left;" width="368" height="24" /></p>
+<p class="exe-math-code">\[(ii)\ A\cdot B\text{ es invertible y }{{(A\cdot B)}^{-1}}={{B}^{-1}}\cdot {{A}^{-1}}\]</p>
+</div>
+<p><br /><br /></p>
+<p></p>
+<p></p>
+<div class="exe-math show-image position-center">
+<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_8.2.gif" style="float: left;" width="336" height="29" /></p>
+<p class="exe-math-code">\[(iii)\ {{A}^{t}}\text{ es invertible y }{{\left( {{A}^{t}} \right)}^{-1}}={{\left( {{A}^{-1}} \right)}^{t}}\]</p>
+</div>
+<p><br /><br /></p>
+<p></p>
+<p></p>
+<p><strong>Cálculo de la inversa por el método de Gauss-Jordan <br /></strong></p>
+<p>Para calcular la inversa de una matriz invertible A, tenemos que transformar la matriz (A|I) en (I|A<sup>-1</sup>) usando estas operaciones elementales:</p>
+<p>Cambiar dos filas:  F<sub>i</sub> ↔ F<sub>j</sub></p>
+<p>Sustituir una fila por una combinación lineal de todas las filas:  F<sub>i</sub>↔ k<sub>1</sub>F<sub>1</sub>+k<sub>2</sub>F<sub>2</sub>+…+k<sub>i</sub>F<sub>i</sub>+…k<sub>m</sub>F<sub>m</sub>    k<sub>i</sub> ≠ 0, donde k<sub>j</sub> son números reales, j = 1, 2, ….m</p>
+<p></p>
+<p>Ejemplo:<strong><br /></strong></p>
+<p><strong><img src="matriz9.png" alt="" width="458" height="307" /> </strong></p>
+<p><strong><img src="matriz10.png" alt="" width="319" height="284" /></strong></p>
+<p>NOTA: si obtenemos una fila de ceros en la matriz de la izquierda, entonces A es singular (no tienen inversa)</p>
+<p> </p>
+<p><strong>Ejercicio</strong>. Calcula la inversa de estas matrices:</p>
+<p><img src="matrix39.png" width="334" height="77" /></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p>Soluciones:</p>
+<p><img src="matriz11.png" alt="" width="378" height="84" /></p>
+<p> </p>
+<p><strong> </strong></p>
+<p> </p>
+<p> </p>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc-nd">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Licencia Creative Commons Reconocimiento No comercial Sin obra derivada 3.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="matrices_cuadradas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="rango_de_una_matriz.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_slate_js.js"></script></body></html>

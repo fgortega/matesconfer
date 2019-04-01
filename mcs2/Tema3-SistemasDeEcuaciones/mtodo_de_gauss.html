@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Método de Gauss | Sistemas de ecuaciones </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Víctor Monterreal Blázquez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="mtodo_de_gauss.html#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Sistemas de ecuaciones</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">SISTEMAS DE ECUACIONES</a></li>
+   <li><a href="sistemas_de_ecuaciones.html" class="no-ch">Sistemas de ecuaciones</a></li>
+   <li><a href="soluciones_de_un_sistema.html" class="no-ch">Soluciones de un sistema</a></li>
+   <li><a href="sistemas_equivalentes.html" class="no-ch">Sistemas equivalentes</a></li>
+   <li><a href="matriz_asociada_a_un_sistema.html" class="no-ch">Matriz asociada a un sistema</a></li>
+   <li id="active"><a href="mtodo_de_gauss.html" class="active no-ch">Método de Gauss</a></li>
+   <li><a href="problemas.html" class="no-ch">Problemas</a></li>
+   <li><a href="resumen.html" class="no-ch">Resumen</a></li>
+   <li><a href="examen.html" class="no-ch">Examen</a></li>
+   <li><a href="fin.html" class="no-ch">Fin</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="matriz_asociada_a_un_sistema.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="problemas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Método de Gauss</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_1" class="block iDevice_content">
+<p>El <b>método de Gauss </b>es una generalización del método de reducción. El objetivo es, usando operaciones elementales, convertir el sistema en <b>sistema escalonado</b>:</p>
+<p><img src="eXe_LaTeX_math_9.gif"  width="304" height="86" /></p>
+<p>Este tipo de sistemas nos permite encontrar la solución de forma sencilla.</p>
+<p></p>
+<p>Podemos comprobar que todo sistema es equivalente a uno escalonado.</p>
+<p></p>
+<p>Sea <i>r</i> el número total de ecuaciones y <i>r’</i> el número total de ecuaciones no absurdas del sistema escalonado de n incógnitas, entonces:</p>
+<p>–Si <i>r ≠ r’ </i>el sistema es incompatible</p>
+<p>–Si <i>r = r’ </i>el sistemas es compatible</p>
+<p>    · Si <i>r = r’ = n </i>es un sistema compatible determinado</p>
+<p>    · Si <i>r = r’ ≠ n </i>es un sistema compatible indeterminado</p>
+<p></p>
+<p>NOTA: trata de reordenar el sistema para hacer que a<sub>11</sub>= ±1</p>
+<p></p>
+<div>Ejemplos:</div>
+<div><img src="Imagen1.1.png" alt="" width="442" height="348" /></div>
+<div><img src="Imagen10.png" alt="" width="372" height="280" /></div>
+<div><img src="Imagen11.png" alt="" width="455" height="143" /></div>
+<div><img src="Imagen11.png" alt="" width="467" height="157" /></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div> <b>Discutir </b>un sistema es determinar su compatibilidad. Si tiene parámetros, tenemos que discutir el sistema en función de esos parámetros</div>
+<div></div>
+<div></div>
+<div>Ejemplos:<br />
+<div></div>
+<div><img src="Imagen13.png" alt="" width="466" height="153" /></div>
+<div><img src="Imagen14.png" alt="" width="471" height="287" /></div>
+<div><img src="Imagen1.2.png" alt="" width="494" height="370" /></div>
+<div> </div>
+<div></div>
+<div> </div>
+<strong>Ejercicio</strong>. Discute y resuelve los siguientes sistemas:</div>
+<div><br />
+<div><img src="eXe_LaTeX_math_10.gif"  width="208" height="146" /></div>
+<div><img src="eXe_LaTeX_math_6.gif"  width="200" height="122" /></div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div> </div>
+<div>Soluciones:</div>
+<div>1) SCD:x = -1, y = 1, z = 3/2, t = -1/2</div>
+<div> </div>
+<div>2) m ≠ 4 SCD: x = 1, y = 2, z = 0</div>
+<div>    m = 4 SCI: x = 1 - λ, y = 2 - λ, z = λ; λ€<strong>R</strong></div>
+<div><strong><br /></strong>3) SCD: x = -1, y = 3</div>
+<div> </div>
+<div>4) b ≠ 2 SCD: x = y = ab/(2b-4), z = -2a/(b-2)</div>
+<div>    b = 2 y a = 0 SCI: x = y = λ, z = -2λ; λ€<strong>R</strong></div>
+<div>    b = 2 y a ≠ 0 incompatible</div>
+<div> </div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 3.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="matriz_asociada_a_un_sistema.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="problemas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_slate_js.js"></script></body></html>
